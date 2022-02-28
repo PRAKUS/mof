@@ -1,0 +1,75 @@
+.banner {
+	margin: 13% 0;
+}
+.banner-container {
+	transition: all 0.5s;
+	width: 100%;
+	max-height: 650px;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner-head {
+	transition: all 0.5s;
+	font-size: 3.7vw;
+	font-family: var(--font);
+	font-weight: bold;
+	color: var(--fontColor);
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+.join-button {
+	transition: all 0.5s;
+	height: 35px;
+	max-width: 180px;
+	width: 100%;
+	font-size: large;
+	font-weight: 700;
+	margin-top: 3%;
+}
+.banner-text {
+	transition: all 0.5s;
+	font-size: 1.2vw;
+	font-family: var(--font);
+	text-align: center;
+	color: var(--fontColor);
+	margin: 2% 2%;
+	font-weight: lighter;
+}
+
+@media (max-width: 400px) {
+	.banner {
+		transition: all 0.5s;
+		margin: 16% 0;
+	}
+
+	.join-button {
+		transition: all 0.5s;
+		height: 14px;
+		max-width: 54px;
+		width: 100%;
+		font-size: 8px;
+		font-weight: 700;
+		margin: 1% 42%;
+		border-radius: 5px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		position: relative;
+		max-width: 1500px;
+		margin: 0 auto;
+	}
+	.banner-container {
+		transition: all 0.5s;
+		width: 100%;
+		max-height: 800px;
+	}
+	.banner-head {
+		font-size: 2vw;
+	}
+	.banner-text {
+		font-size: 1vw;
+	}
+}

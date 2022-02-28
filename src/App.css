@@ -1,0 +1,134 @@
+:root {
+	--font: "roboto";
+	--red: rgba(182, 2, 2, 1);
+	--darklayer: rgba(46, 45, 45, 0.5);
+	--darklayer2: rgba(17, 17, 17, 0.4);
+	--darklayer3: rgba(23, 22, 22, 0.86);
+	--navcolor: rgba(18, 18, 20, 1);
+	--footerBg: rgb(17, 17, 17);
+	--fontColor: rgba(255, 255, 255, 1);
+	--pricingCardbg: rgba(31, 31, 31, 1);
+	--medium: 1.8vw;
+	--large: 48px;
+	--small: 10px;
+}
+
+body {
+	margin: 0;
+	background-color: rgba(17, 17, 17, 1);
+	font-family: var(--font);
+}
+.pointer {
+	cursor: pointer;
+}
+.dark-nav {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(18, 18, 20, 1),
+		rgba(18, 18, 20, 0.76)
+	);
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+}
+
+.d-flex {
+	display: flex;
+}
+.flex-column {
+	flex-direction: column;
+}
+
+.dark-layer {
+	background-color: var(--darklayer);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.dark-layer2 {
+	background-color: var(--darklayer2);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.dark-layer3 {
+	background-color: var(--darklayer3);
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+.button {
+	background-color: var(--fontColor);
+	font-family: var(--font);
+	border: none;
+	border-radius: 10px;
+}
+.section-title {
+	color: var(--fontColor);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.rightText-container {
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+}
+
+.leftText-container {
+	margin: 0;
+	z-index: 1;
+	left: 0;
+}
+.right-sm {
+	text-align: right;
+	font-size: 1.9vw;
+	margin: 0px;
+}
+.right-lg {
+	text-align: right;
+	font-size: 2.2vw;
+	margin: 0px;
+}
+.left-sm {
+	text-align: left;
+	font-size: 1.9vw;
+	margin: 0px;
+}
+.left-lg {
+	text-align: left;
+	font-size: 2.2vw;
+	margin: 0px;
+}
+.container {
+	position: relative;
+	max-width: 1380px;
+	margin: 0 auto;
+}
+@media (min-width: 410px) {
+	.container {
+		position: relative;
+		max-width: 1380px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		position: relative;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1300px) {
+	.container {
+		position: relative;
+		max-width: 1300px;
+		margin: 0 auto;
+	}
+}

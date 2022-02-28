@@ -1,0 +1,50 @@
+.footer-border {
+	position: absolute;
+	background-color: black;
+	border-radius: 50px 50px 0 0;
+	width: 100%;
+	margin-top: -5%;
+}
+.footertitle {
+	color: #fff;
+	font-size: 1.5vw;
+	margin: 3%;
+}
+.footer-container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footerSection {
+	flex: 1 33.33%;
+}
+
+.sec {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	list-style: none;
+}
+.sec2 {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	flex: 1;
+}
+.footersmIcon {
+	width: 5%;
+}
+
+.icon {
+	display: flex;
+	flex-direction: row;
+	color: var(--fontColor);
+	text-decoration: none;
+	align-items: center;
+}
+
+.iconText {
+	margin: 1%;
+	flex: 1 1 100%;
+}

@@ -1,0 +1,12 @@
+.imagefitnessContainer {
+	max-width: 330px;
+	width: 100%;
+	height: 350px;
+	border-radius: 2%;
+	overflow: hidden;
+	margin-left: 1%;
+	flex: 0 0 100%;
+}
+.imagefitness {
+	width: 100%;
+}

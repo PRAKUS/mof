@@ -1,0 +1,29 @@
+.sec-container {
+	position: absolute;
+}
+
+.img-array {
+	display: flex;
+}
+.img-card {
+	overflow: hidden;
+	border-radius: 10px;
+	flex-grow: 1;
+	margin: 0% 2%;
+}
+.text-middle {
+	transition: all;
+	text-align: center;
+	margin-top: 55%;
+	color: var(--fontColor);
+	font-size: var(--medium);
+	font-weight: bold;
+}
+@media (max-width: 450px) {
+	.img-card {
+		border-radius: 5px;
+	}
+	.text-middle {
+		text-align: center;
+	}
+}

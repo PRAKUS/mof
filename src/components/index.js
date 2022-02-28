@@ -1,0 +1,13 @@
+export { default as DesktopNav } from "./navbar/desktop/desknav";
+export { default as Banner } from "./Banner/Banner";
+export { default as Card } from "./card/Card";
+export { default as About } from "./About/About";
+export { default as Review } from "./Review/Review";
+export { default as Trainer } from "./Trainer/Trainer";
+export { default as PricingTable } from "./PricingTable/PricingTable";
+export { default as Social } from "./Social/Social";
+export { default as InsideFitness } from "./InsideFitness/InsideFitness";
+export { default as Slider } from "./Slider/Slider";
+export { default as Blog } from "./Blogs/Blog";
+export { default as Session } from "./SessionTiming/Session";
+export { default as Footer } from "./Footer/Footer";
